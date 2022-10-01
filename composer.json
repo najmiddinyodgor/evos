@@ -1,0 +1,21 @@
+{
+  "name": "najmiddin/design-patterns",
+  "authors": [
+    {
+      "name": "Najmiddin Yodgor",
+      "email": "najmiddinyodgor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.4",
+    "symfony/console": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Domain\\": "Domain/",
+      "Console\\": "Console/"
+    }
+  }
+}
